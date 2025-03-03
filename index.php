@@ -11,6 +11,34 @@ h2 { background-color: #FF8800; color:#FFFF00; }
 <body>
 <h1>PHP 老師上課實作</h1>
 <p><a href="https://hackmd.io/@Shinjia/rkUYaFO5yl">上課教學網頁</a></p>
+
+
+
+
+<h2>Class 03 (2025/03/03)</h2>
+
+<p>BMI身體質量指數 (bmi) **有錯誤處理的進階方法**</p>
+<ul>
+    <li>程式執行 <a href="bmi/input.php">input.php</a> </li>
+    <li>查看原始碼：表單輸入 [<a href="show_source.php?dir=bmi&amp;file=input.php">input.php</a>]</li>
+    <li>查看原始碼：計算結果 [<a href="show_source.php?dir=bmi&amp;file=calc.php">calc.php</a>]</li>
+</ul>
+<p>BMI身體質量指數 (bmi_demo)</p>
+<ul>
+    <li>程式執行 <a href="bmi_demo/input.php">input.php</a> </li>
+</ul>
+<p>客戶意見留言 (comment)</p>
+<ul>
+    <li>程式執行 <a href="comment/input.php">input.php</a></li>
+    <li>查看原始碼：表單輸入 [<a href="show_source.php?dir=comment&amp;file=input.php">input.php</a>]</li>
+    <li>查看原始碼：結果存檔 [<a href="show_source.php?dir=comment&amp;file=save.php">save.php</a>]</li>
+</ul>
+
+<p>&nbsp;</p>
+
+
+
+
 <h2>Class 02 (2025/02/26)</h2>
 
 <p>九九乘法CAI練習 (game99)</p>

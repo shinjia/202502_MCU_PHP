@@ -12,6 +12,50 @@ h2 { background-color: #FF8800; color:#FFFF00; }
 <h1>PHP 老師上課實作</h1>
 <p><a href="https://hackmd.io/@Shinjia/rkUYaFO5yl">上課教學網頁</a></p>
 
+<p><a href="functions.pdf">PHP的函式</a></p>
+
+<h2>Class 04 (2025/03/05)</h2>
+
+<p>Survey (迴圈概念)</p>
+<ul>
+    <li>程式執行 <a href="survey/birthday.php">birthday.php</a> </li>
+    <li>查看原始碼：表單輸入 [<a href="show_source.php?dir=survey&amp;file=birthday.php">birthday.php</a>]</li>
+    <li>查看原始碼：計算結果 [<a href="show_source.php?dir=survey&amp;file=birthday_x.php">birthday_x.php</a>]</li>
+</ul>
+
+<p>線上問卷調查 (survey)</p>
+<ul>
+    <li>v1 程式執行 <a href="survey/v1/input.php">input.php</a> </li>
+    <li>v2 程式執行 <a href="survey/v2/input.php">input.php</a> </li>
+</ul>
+
+<p>陣列的用法</p>
+<ul>
+    <li>程式請見目錄內各檔案 <a href="array/">array</a></li>
+</ul>
+
+<p>六個幸運樂透數字 (lotto6)</p>
+<ul>
+    <li>-----複習------------------</li>
+    <li><a href="lotto6/lucky1.php">lucky1.php</a> [<a href="show_source.php?dir=lotto6&amp;file=lucky1.php">查看原始碼</a>] 回顧：產生一個隨機幸運球</li>
+    <li><a href="lotto6/lucky2.php">lucky2.php</a> [<a href="show_source.php?dir=lotto6&amp;file=lucky2.php">查看原始碼</a>] 回顧：產生多個隨機幸運球</li>
+    <li><a href="lotto6/lucky3.php">lucky3.php</a> 有趣的變化</li>
+    <li>-----程式的變化------------------</li>
+    <li><a href="lotto6/a1.php">a1.php</a> [<a href="show_source.php?dir=lotto6&amp;file=a1.php">查看原始碼</a>] (產生六個球，有BUG，會發生重覆)</li>
+    <li><a href="lotto6/a2.php">a2.php</a> [<a href="show_source.php?dir=lotto6&amp;file=a2.php">查看原始碼</a>] (六個球用陣列存放，有BUG，會發生重覆)</li>
+    <li><a href="lotto6/a3.php">a3.php</a> [<a href="show_source.php?dir=lotto6&amp;file=a3.php">查看原始碼</a>] (不重覆) (含原來順序及排序後) (***主要的程式***)</li>
+    <li><a href="lotto6/a4.php">a4.php</a> [<a href="show_source.php?dir=lotto6&amp;file=a4.php">查看原始碼</a>] (檢查陣列內是否有此數的程式寫法，功能同 in_array() 函式)</li>
+    <li><a href="lotto6/a5.php">a5.php</a> [<a href="show_source.php?dir=lotto6&amp;file=a5.php">查看原始碼</a>] (上述的函式做成自訂函式，功能同 in_array() 函式)</li>  
+    <li>-----尚有其他演算法--------------</li>
+    <li><a href="lotto6/a6.php">a6.php</a> [<a href="show_source.php?dir=lotto6&amp;file=a6.php">查看原始碼</a>] 演算法：全部的球放進盒子裡，隨機挑出六個</li>
+    <li><a href="lotto6/a7.php">a7.php</a> [<a href="show_source.php?dir=lotto6&amp;file=a7.php">查看原始碼</a>] 演算法：全部的球放進盒子裡，打散，挑出前面六個</li>
+</ul>
+
+<p>陣列用法補充 (array_sort) </p>
+<ul>
+    <li>程式請見目錄內各檔案 <a href="array_sort/">array_sort</a></li>
+</ul>
+
 
 
 

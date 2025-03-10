@@ -12,7 +12,30 @@ h2 { background-color: #FF8800; color:#FFFF00; }
 <h1>PHP 老師上課實作</h1>
 <p><a href="https://hackmd.io/@Shinjia/rkUYaFO5yl">上課教學網頁</a></p>
 
-<p><a href="functions.pdf">PHP的函式</a></p>
+<div class="hot" style="background-color:rgb(235, 216, 189); padding:5px;">
+    <p>(快速連結) db_系列程式：|
+        <a href="db_mysqli/">db_mysqli</a> |
+        <a href="db_ext2/">db_ext2</a> |
+        <a href="db_pdo/">db_pdo</a> |
+    </p>
+</div>
+
+
+
+
+<h2>Class 05 (2025/03/10)</h2>
+
+<p>PHP 連結 MySQL 的程式測試 (db_test)</p>
+<ul>
+    <li>查看原始碼：[<a href="show_source.php?dir=db_test&amp;file=test1.php">db_test/test1.php</a>]</li>
+</li>
+</ul>
+
+<p>&nbsp;</p>
+
+
+
+
 
 <h2>Class 04 (2025/03/05)</h2>
 
@@ -56,6 +79,13 @@ h2 { background-color: #FF8800; color:#FFFF00; }
     <li>程式請見目錄內各檔案 <a href="array_sort/">array_sort</a></li>
 </ul>
 
+<div class="hot" style="background-color:rgb(139, 240, 141); padding:5px;">
+    <p><a href="functions.pdf">PHP的函式下載</a></p>
+</div>
+
+<p>&nbsp;</p>
+
+
 
 
 
@@ -83,6 +113,7 @@ h2 { background-color: #FF8800; color:#FFFF00; }
 
 
 
+
 <h2>Class 02 (2025/02/26)</h2>
 
 <p>九九乘法CAI練習 (game99)</p>
@@ -103,6 +134,8 @@ h2 { background-color: #FF8800; color:#FFFF00; }
 
 
 
+
+
 <h2>Class 01 (2025/02/24)</h2>
 
 <p>自我介紹 (intro)</p>
@@ -118,6 +151,9 @@ h2 { background-color: #FF8800; color:#FFFF00; }
 </ul>
 
 <p>&nbsp;</p>
+
+
+
 
 
 

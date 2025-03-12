@@ -22,6 +22,15 @@ h2 { background-color: #FF8800; color:#FFFF00; }
 
 
 
+<h2>Class 06 (2025/03/12)</h2>
+
+<p>PHP 連結 MySQL 的程式測試 (db_test)</p>
+<ul>
+    <li>資料庫系列程式，請直接參考資料夾 db_mysqli</li>
+</ul>
+<p>&nbsp;</p>
+
+
 
 <h2>Class 05 (2025/03/10)</h2>
 

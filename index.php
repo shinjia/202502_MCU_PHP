@@ -17,8 +17,56 @@ h2 { background-color: #FF8800; color:#FFFF00; }
         <a href="db_mysqli/">db_mysqli</a> |
         <a href="db_ext2/">db_ext2</a> |
         <a href="db_pdo/">db_pdo</a> |
+        <a href="db2_pdo/">db2_pdo</a> |
     </p>
 </div>
+
+
+
+<h2>Class 08 (2025/03/19)</h2>
+<p>PDO 的資料庫程式 (db_pdo)</p>
+<ul>
+    <li>請直接參考資料夾 db_pdo</li>
+    <li>請直接參考資料夾 db2_pdo (另一種流程)</li>
+</ul>
+<p>&nbsp;</p>
+
+
+
+<h2>Class 07 (2025/03/17)</h2>
+
+<p>查詢程式 (db_mysqli)</p>
+<ul>
+    <li>(用list_all來改) find 程式執行 <a href="db_mysqli/find.php">find.php</a>
+        查看原始碼：
+        [<a href="show_source.php?dir=db_mysqli&amp;file=find.php">find.php</a>]
+        [<a href="show_source.php?dir=db_mysqli&amp;file=find_x.php">find_x.php</a>]
+    </li>
+    <li>(用list_page來改) find2 程式執行 <a href="db_mysqli/find2.php">find2.php</a>
+        查看原始碼：
+        [<a href="show_source.php?dir=db_mysqli&amp;file=find2.php">find2.php</a>]
+        [<a href="show_source.php?dir=db_mysqli&amp;file=find2_x.php">find2_x.php</a>]
+    </li>
+    <li>find3 程式執行 <a href="db_mysqli/find3.php">find3.php</a>
+        查看原始碼：
+        [<a href="show_source.php?dir=db_mysqli&amp;file=find3.php">find3.php</a>]
+        [<a href="show_source.php?dir=db_mysqli&amp;file=find3_x.php">find3_x.php</a>]
+        (查詢多個欄位) 
+    </li>
+    <li>find4 程式執行 <a href="db_mysqli/find4.php">find4.php</a>
+        查看原始碼：
+        [<a href="show_source.php?dir=db_mysqli&amp;file=find4.php">find4.php</a>]
+        [<a href="show_source.php?dir=db_mysqli&amp;file=find4_x.php">find4_x.php</a>]
+        (不同的查詢欄位，用同一支程式)
+    </li>
+    <li>find5 程式執行 <a href="db_mysqli/find5.php">find5.php</a>
+        查看原始碼：
+        [<a href="show_source.php?dir=db_mysqli&amp;file=find5.php">find5.php</a>]
+        [<a href="show_source.php?dir=db_mysqli&amp;file=find5_x.php">find5_x.php</a>]
+        (列出所有地區，用選的)
+    </li>
+</ul>
+<p>&nbsp;</p>
 
 
 

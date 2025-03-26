@@ -22,6 +22,19 @@ h2 { background-color: #FF8800; color:#FFFF00; }
     </p>
 </div>
 
+<h2>Class 10 (2025/03/26)</h2>
+<p>Cookie</p>
+<ul>
+    <li>請直接參考資料夾 <a href="cookie/">cookie</a></li>
+    <li>請直接參考資料夾 <a href="db2_pdo_cookie/">db2_pdo_cookie</a></li>
+</ul>
+<p>Session</p>
+<ul>
+    <li>請直接參考資料夾 <a href="session_login/">session_login</a></li>
+    <li>dbs_person_ext/v2 實際套用到系統開發</li>
+</ul>
+<p>&nbsp;</p>
+
 
 
 <h2>Class 09 (2025/03/24)</h2>

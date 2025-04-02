@@ -3,13 +3,24 @@ include 'config.php';
 include 'utility.php';
 
 // 接收傳入變數
-$usercode = $_POST['usercode'] ?? '';
-$username = $_POST['username'] ?? '';
-$address  = $_POST['address']  ?? '';
-$birthday = $_POST['birthday'] ?? '';
-$height   = $_POST['height']   ?? '';
-$weight   = $_POST['weight']   ?? '';
-$remark   = $_POST['remark']   ?? '';
+// $usercode = $_POST['usercode'] ?? '';
+// $username = $_POST['username'] ?? '';
+// $address  = $_POST['address']  ?? '';
+// $birthday = $_POST['birthday'] ?? '';
+// $height   = $_POST['height']   ?? '';
+// $weight   = $_POST['weight']   ?? '';
+// $remark   = $_POST['remark']   ?? '';
+
+// 接收傳入變數並清理輸入
+$inputs = filter_input_array(INPUT_POST, [
+    'usercode' => FILTER_SANITIZE_STRING,
+    'username' => FILTER_SANITIZE_STRING,
+    'address'  => FILTER_SANITIZE_STRING,
+    'birthday' => FILTER_SANITIZE_STRING,
+    'height'   => FILTER_VALIDATE_INT,
+    'weight'   => FILTER_VALIDATE_INT,
+    'remark'   => FILTER_SANITIZE_STRING,
+]);
 
 // 連接資料庫
 $pdo = db_open();
@@ -40,6 +51,7 @@ $sth->bindParam(':birthday', $birthday, PDO::PARAM_STR);
 $sth->bindParam(':height'  , $height  , PDO::PARAM_INT);
 $sth->bindParam(':weight'  , $weight  , PDO::PARAM_INT);
 $sth->bindParam(':remark'  , $remark  , PDO::PARAM_STR);
+echo $sqlstr;
 
 // 執行 SQL
 try { 

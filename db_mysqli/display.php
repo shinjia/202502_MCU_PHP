@@ -8,9 +8,18 @@ $link = db_open();
 
 // 寫出 SQL 語法
 $sqlstr = "SELECT * FROM person WHERE uid=" . $uid;
+echo $sqlstr;
 
 // 執行 SQL
 $result = mysqli_query($link, $sqlstr);
+
+$row = mysqli_fetch_array($result, MYSQLI_ASSOC);
+// $row = mysqli_fetch_row($result);
+// $row = mysqli_fetch_assoc($result);
+// $row = mysqli_fetch_array($result);
+echo '<pre>';
+print_r($row);
+echo '</pre>';
 
 if($row=mysqli_fetch_array($result, MYSQLI_ASSOC)) {
    $uid      = $row['uid'];

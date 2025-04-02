@@ -105,8 +105,8 @@ HEREDOC;
     $ihc_content = <<< HEREDOC
     <h3>共有 $total_rec 筆記錄</h2>
     {$ihc_navigator}
-    <table border="1" class="table">   
-        <tr>
+    <table class="table table-hover">   
+        <tr class="table-dark">
             <th>順序</th>
             <th>uid</th>
             <th>代碼</th>

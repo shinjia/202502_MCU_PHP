@@ -22,7 +22,7 @@ while($row=mysqli_fetch_array($result, MYSQLI_ASSOC)) {
    $weight   = $row['weight'];
    $remark   = $row['remark'];
    
-   // 依需要調整顯示內容
+   // 依需要調整顯示內容   
    $str_birthday = date('Y-m-d', strtotime($birthday));
 
    $data .= <<< HEREDOC
@@ -69,7 +69,9 @@ $html = <<< HEREDOC
       <th>備註</th>
       <td colspan="3" align="center">操作 [<a href="add.php">新增記錄</a>]</td>
    </tr>
-{$data}
+
+   {$data}
+
 </table>
 
 </body>

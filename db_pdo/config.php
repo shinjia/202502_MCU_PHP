@@ -22,8 +22,7 @@ define('ERROR_CHARSET'  , 'Set charset error');  // 無法設定指定的校對�
 define('ERROR_DBSOURCE' , 'DB source error.');  // 無法連接 DB_SOURCE(PDO)
 
 
-function db_open()
-{
+function db_open() {
     try {
         $pdo = new PDO(DB_SOURCE, DB_USERNAME, DB_PASSWORD);
         if(defined('SET_CHARACTER')) $pdo->query(SET_CHARACTER);
@@ -34,20 +33,17 @@ function db_open()
     return $pdo;
 }
 
-function db_close()
-{
+function db_close() {
     // Do nothing
 }
 
-function db_error($type='', $ext='')
-{
+function db_error($type='', $ext='') {
     $is_debug = true;  // 是否顯示系統捕捉的錯訊訊息
 
     $msg = '<h2>DB Error! </h2>';
     $msg .= '<p>' . $type . '</p>';
 
-    if($is_debug)
-    {
+    if($is_debug) {
         $msg .= '<p>' . $ext . '</p>';
     }
     

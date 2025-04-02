@@ -5,7 +5,7 @@ include 'config.php';
 include 'utility.php';
 
 // 可接收 GET 及 POST 傳入
-$key = $_POST['key'] ?? ($_GET['key']??'^$!@#');
+$key = $_POST['key'] ?? ($_GET['key']??'');
 
 // 頁碼參數
 $page = $_GET['page'] ??  1;   // 目前的頁碼

@@ -8,7 +8,12 @@ function pagemake($content='', $head='') {
 <meta charset="UTF-8">
 <title>db_pdo2</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href="style.css" rel="stylesheet">
+<link href="___style.css" rel="stylesheet">
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+
+
 {$head}
 </head>
 <body>
@@ -21,8 +26,8 @@ function pagemake($content='', $head='') {
     <div id="nav">     
         | <a href="index.php" target="_top">首頁</a>
         | <a href="page.php?code=note2">說明</a> 
-        | <a href="list_page.php">資料列表</a>
-        | <a href="add.php">新增記錄</a>
+        | <a href="list_page.php" class="btn btn-primary">資料列表</a>
+        | <a href="add.php" class="btn btn-danger">新增記錄</a>
     </div>
     
     <div id="main">
@@ -34,6 +39,11 @@ function pagemake($content='', $head='') {
     </div>
 
 </div>
+
+
+<!-- Bundle: Popper.js + Bootstrap JS -->
+<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+
 
 </body>
 </html>  

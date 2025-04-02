@@ -19,8 +19,22 @@ h2 { background-color: #FF8800; color:#FFFF00; }
         <a href="db_pdo/">db_pdo</a> |
         <a href="db2_pdo/">db2_pdo</a> |
         <a href="dbs_person/">dbs_person</a> |
+        <a href="dbs_person_ext/">dbs_person_ext</a> |
+        <a href="my_work/">my_work</a> |
     </p>
 </div>
+
+
+<h2>Class 12 (2025/04/02)</h2>
+<p>檔案上傳</p>
+<ul>
+    <li>請直接參考資料夾 <a href="form_element_edit/">form_element_edit</a></li>
+</ul>
+<p>用檔案當資料庫 SQLite3</p>
+<ul>
+    <li>請直接參考資料夾 <a href="db_sqlite3/">db_sqlite3</a></li>
+</ul>
+<p>&nbsp;</p>
 
 
 

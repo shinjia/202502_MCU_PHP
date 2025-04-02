@@ -3,8 +3,7 @@
 include 'config.php';
 
 $page = $_GET['page'] ?? 1;   // 目前的頁碼
-
-$numpp = 20; // 每頁的筆數
+$numpp = $_GET['numpp'] ?? 20; // 每頁的筆數
 
 
 // 連接資料庫
@@ -66,11 +65,11 @@ $total_page = ceil($total_rec / $numpp);  // 計算總頁數
 // 分頁之超連結
 $navigator = "";
 for($i=1; $i<=$page-1; $i++) {
-   $navigator .= "<a href=\"?page=" . $i . "\">" . $i . "</a>&nbsp;";
+   $navigator .= "<a href=\"?numpp=$numpp&page=" . $i . "\">" . $i . "</a>&nbsp;";
 }
 $navigator .= "[" . $i . "]&nbsp;";
 for($i=$page+1; $i<=$total_page; $i++) {
-   $navigator .= "<a href=\"?page=" . $i .  "\">" . $i . "</a>&nbsp;";
+   $navigator .= "<a href=\"?numpp=$numpp&page=" . $i .  "\">" . $i . "</a>&nbsp;";
 }
 
 $lnk_pageprev  = "?page=" . (($page==1)?(1):($page-1));

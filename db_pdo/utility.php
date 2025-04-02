@@ -181,4 +181,11 @@ function html_encode($sText)
     return $_str;
 }
 
+function h($sText) {
+    $_str = $sText;
+        
+    $_str = htmlspecialchars($_str, ENT_QUOTES, 'UTF-8');
+    return $_str;
+}
+
 ?>

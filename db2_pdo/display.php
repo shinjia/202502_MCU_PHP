@@ -36,7 +36,7 @@ try {
         $remark   = html_encode($row['remark']);
 
         $data = <<< HEREDOC
-        <table border="1" class="table">
+        <table class="table">
             <tr><th>代碼</th><td>{$usercode}</td></tr>
             <tr><th>姓名</th><td>{$username}</td></tr>
             <tr><th>地址</th><td>{$address}</td></tr>

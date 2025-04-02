@@ -22,6 +22,21 @@ h2 { background-color: #FF8800; color:#FFFF00; }
     </p>
 </div>
 
+
+
+<h2>Class 11 (2025/03/31)</h2>
+<p>檔案上傳</p>
+<ul>
+    <li>請直接參考資料夾 <a href="php_upload/">php_upload</a></li>
+</ul>
+<p>php_uid_safe</p>
+<ul>
+    <li>請直接參考資料夾 <a href="php_uid_safe/">php_uid_safe</a></li>
+</ul>
+<p>&nbsp;</p>
+
+
+
 <h2>Class 10 (2025/03/26)</h2>
 <p>Cookie</p>
 <ul>
